@@ -248,6 +248,7 @@ class TBMegaMenuBuilder {
    *
    * @param array $block_config
    * @return array
+   ************************************************************************CUSTOM ADD VMS to MENU*********************************************************
    */
   public static function createStyleOptions($block_config) {
     return array(
@@ -255,6 +256,7 @@ class TBMegaMenuBuilder {
       'black' => t('Black'),
       'blue' => t('Blue'),
       'green' => t('Green'),
+      'custom_vms' => t('Custom 1')
     );
   }
 
